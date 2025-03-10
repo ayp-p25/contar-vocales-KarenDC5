@@ -3,7 +3,7 @@ Contar la cantidad de vocales en una frase
 """
 
 # Declaraciones
-vocales = "aeiouAEIOU"
+vocales = "aeiouáéíóúAEIOUÁÉÍÓÚ"
 
 # Entradas
 frase = input("Introduce una frase: ")
