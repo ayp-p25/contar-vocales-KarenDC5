@@ -1,15 +1,18 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Contar la cantidad de vocales en una frase 
 """
 
 # Declaraciones
-CONSTANTE = valor
+vocales = "aeiouAEIOU"
 
 # Entradas
-entrada = input()
+frase = input("Introduce una frase: ")
 
 # Proceso
-
+contador = 0
+for letra in frase: 
+    if letra in vocales:
+        contador += 1
 
 # Salidas
-print(salida)
+print("La frase tiene", contador, "vocales.")
