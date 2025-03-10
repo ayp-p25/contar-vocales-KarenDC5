@@ -11,8 +11,8 @@ frase = input("Introduce una frase: ")
 # Proceso
 contador = 0
 for letra in frase: 
-    if letra in vocales:
+    if letra.lower() in vocales:
         contador += 1
 
 # Salidas
-print("La frase tiene", contador, "vocales.")
+print(f"La frase tiene {contador} vocales.")
